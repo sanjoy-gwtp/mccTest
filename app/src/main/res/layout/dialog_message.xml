@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/bg_style">
+
+    <com.mislbd.agentbanking.widget.AppImageView
+        android:id="@+id/iconImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:tint="@color/text_color"
+        android:src="@android:drawable/ic_dialog_alert"
+        android:layout_margin="5dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray"
+        />
+
+    <com.mislbd.agentbanking.widget.AppTextViewRegular
+        android:id="@+id/alert_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="@string/default_msg"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/txt_size_18" />
+
+    <com.mislbd.agentbanking.widget.AppButton
+        android:id="@+id/okButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_20"
+        android:text="@string/ok"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/txt_size_16" />
+
+</LinearLayout>

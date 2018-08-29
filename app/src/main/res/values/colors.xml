@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <!--<color name="colorAccent">#FF4081</color>-->
+
+
+    <color name="colorPrimary">#FF00A3E3</color>
+    <color name="colorPrimaryDark">#FF00A3E3</color>
+    <color name="colorAccent">#FF264D8E</color>
+    <color name="dot_bg">#80aaaaaa</color>
+
+    <color name="text_color">#212121</color>
+    <color name="history_txt_color">#42aee0</color>
+    <color name="popup_bg">#2f3451</color>
+    <color name="red">#FFFF4444</color>
+    <color name="amount_bg_color">#363d6b</color>
+    <color name="btn_bg">#e91e63</color>
+    <color name="transfer_bg_color">#15709A</color>
+    <color name="light_gray">#10000000</color>
+    <color name="semi_transparent">#aa000000</color>
+    <color name="menu_item_bg">#10264D8E</color>
+</resources>
