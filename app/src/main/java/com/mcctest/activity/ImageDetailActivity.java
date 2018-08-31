@@ -167,4 +167,10 @@ public class ImageDetailActivity extends AppCompatActivity implements View.OnTou
         sb.append("]");
         Log.d("Touch Events ---------", sb.toString());
     }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        finish();
+    }
 }
