@@ -1,6 +1,7 @@
 package com.mcctest.activity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
@@ -59,7 +60,9 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onItemClick(View view, final int position) {
                         Log.d("Position",String.valueOf(position));
-
+                        Intent intent = new Intent(getBaseContext(), ImageDetailActivity.class);
+                        intent.putExtra("IMAGE_URL", imageDetailList.get(position).getIMG());
+                        startActivity(intent);
                     }
                 });
             }
